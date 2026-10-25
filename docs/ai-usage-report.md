@@ -34,3 +34,12 @@ I reviewed the suggestions, tested the website myself, and changed parts that di
 | A03 | ChatGPT (GPT-6) | 2026-10-25 | Draft JavaScript for expandable details. | `js/script.js` | Found each details section once, added a missing-element check, and used its hidden state to control visibility. Tested both buttons opening, closing, and updating their labels. |
 | A04 | ChatGPT (GPT-6) | 2026-10-25 | Draft project button and detail styling. | `css/styles.css` | Added matching font styling, text wrapping, and a separate keyboard focus outline. Checked both themes, hover transitions, keyboard focus, and a narrow layout. |
 | A05 | ChatGPT (GPT-6) | 2026-10-25 | Draft demo contact-form wording and feedback. | `index.html`, `js/script.js` | Clarified the demo message, changed the button label, and cleared feedback when fields are edited. Tested empty fields, invalid email input, valid input, and retained field values. |
+
+## Declaration
+
+I declare that this report and the attached evidence document all of my AI use in this assignment, with complete and unedited conversations, and that I understand and can explain all the code I submitted. I understand that undeclared AI use or a false declaration will be treated as plagiarism according to KFUPM regulations.
+
+Name: Bader Albarjas
+Student ID: 202152670
+Date: 2026-10-25
+Signature: B. ALbarjas
