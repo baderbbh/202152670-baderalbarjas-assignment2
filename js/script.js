@@ -31,13 +31,20 @@ themeToggle.addEventListener("click", function () {
 const contactForm = document.getElementById("contact-form");
 const formStatus = document.getElementById("form-status");
 
+
 contactForm.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  formStatus.textContent = "Thank you! Your message has been submitted successfully.";
-
-  contactForm.reset();
+  formStatus.textContent =
+    "Your details passed validation. This demo does not send messages. " +
+    "Please use the email link above to contact me.";
 });
+
+
+contactForm.addEventListener("input", function () {
+  formStatus.textContent = "";
+});
+
 document.querySelectorAll(".project-details-btn").forEach(function (button) {
   const details = document.getElementById(
     button.getAttribute("aria-controls")
