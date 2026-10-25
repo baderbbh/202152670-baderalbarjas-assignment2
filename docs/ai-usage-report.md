@@ -23,3 +23,10 @@ I also learned the importance of testing each feature instead of assuming that a
 I used ChatGPT for guidance, examples, and feedback. I made the final decisions about the website’s content, colors, projects, and features.
 
 I reviewed the suggestions, tested the website myself, and changed parts that did not match the assignment or my preferences. I also made sure that I understood the code included in the final project.
+
+## AI Usage Log
+
+| ID | Tool (model) | Date | Purpose | Files affected | What you changed and how you verified it |
+| --- | --- | --- | --- | --- | --- |
+| C01 | ChatGPT (GPT-6) | 2026-10-25 | Discuss requirements and draft project details, form feedback, and documentation guidance. | `index.html`, `css/styles.css`, `js/script.js`, `README.md`, `docs/technical-documentation.md` | I reviewed and refined the suggested code, tested the project buttons and form, and updated the documentation to describe the implemented features and completed checks. |
+| A01 | ChatGPT (GPT-6) | 2026-10-25 | Generate an early Assignment 2 working ZIP. | None in my submitted repository. | I did not use the generated ZIP. I cloned my new repository and copied my Assignment 1 website files into it instead. |
