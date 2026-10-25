@@ -38,3 +38,22 @@ contactForm.addEventListener("submit", function (event) {
 
   contactForm.reset();
 });
+document.querySelectorAll(".project-details-btn").forEach(function (button) {
+  const details = document.getElementById(
+    button.getAttribute("aria-controls")
+  );
+  const projectName = button.dataset.project;
+
+
+  if (!details) {
+    return;
+  }
+
+  button.addEventListener("click", function () {
+    const showDetails = details.hidden;
+
+    details.hidden = !showDetails;
+    button.setAttribute("aria-expanded", String(showDetails));
+    button.textContent = `${showDetails ? "Hide" : "Show"} ${projectName} details`;
+  });
+});
