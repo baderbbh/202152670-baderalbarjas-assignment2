@@ -448,3 +448,57 @@ body.dark-theme .project-placeholder {
 body.dark-theme .site-footer {
   background-color: #101414;
 }
+
+
+.project-details-btn {
+  max-width: 100%;
+  margin-top: 20px;
+  padding: 10px 16px;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+  color: var(--primary);
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.project-details-btn:hover {
+  color: #fff;
+  background-color: var(--primary-dark);
+}
+
+.project-details-btn:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 4px;
+}
+
+.project-details {
+  margin-top: 18px;
+  color: var(--muted);
+}
+
+.project-details h4 {
+  margin: 0 0 8px;
+  color: var(--text);
+}
+
+.project-details ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.project-details li + li {
+  margin-top: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-details-btn {
+    transition: none;
+  }
+}
